@@ -1,4 +1,4 @@
-# 🚀 Dev Portfolio Website
+# 🚀 # Ayush Raghuwanshi Developer Portfolio Website
 
 **A modern, responsive developer portfolio showcasing projects, skills, case studies and achievements.**  
 Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, GLightbox, Swiper, Isotope and a persistent dark mode toggle.  
