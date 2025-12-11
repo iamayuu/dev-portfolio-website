@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Shortest Path Visualizer</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/libs/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/libs/aos/aos.css" rel="stylesheet" />
+    <link href="assets/libs/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/libs/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Updated: Dec 04 2025
+  ======================================================== -->
+  </head>
+
+  <body class="portfolio-details-page">
+    <header id="header" class="header dark-background d-flex flex-column">
+      <i class="header-toggle d-xl-none bi bi-list"></i>
+
+      <div class="profile-img">
+        <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle" />
+      </div>
+
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Ayush Raghuwanshi</h1>
+      </a>
+
+      <div class="social-links text-center">
+        <a href="https://github.com/iamayuu?tab=repositories" class="github" target="_blank" rel="noopener noreferrer" title="Visit my GitHub"
+          ><i class="bi bi-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/ayush-raghuwanshi1/" class="linkedin" target="_blank" rel="noopener noreferrer" title="Connect with me on LinkedIn"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+        <a href="https://leetcode.com/u/ayushraghuwanshi1/" class="leetcode" target="_blank" rel="noopener noreferrer" title="Open Leetcode profile"
+          ><i class="bi bi-code-slash"></i
+        ></a>
+        <a
+          href="https://www.skills.google/public_profiles/d67f2a6f-859b-44ed-b3b4-35bcb3239c0e"
+          class="resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Visit Google Cloud Skill Profile"
+          ><i class="bi bi-google"></i
+        ></a>
+        <a
+          href="https://drive.google.com/file/d/11t7AD0i5k7hZK_JecgBwFr2R308eF2iH/view?usp=sharing"
+          class="resume"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Download my Resume"
+          ><i class="bi bi-file-earmark-arrow-down-fill"></i
+        ></a>
+      </div>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="index.html#hero" class="active"><i class="bi bi-house navicon"></i>Home</a>
+          </li>
+          <li>
+            <a href="index.html#about"><i class="bi bi-person navicon"></i> About</a>
+          </li>
+          <li>
+            <a href="index.html#skills"><i class="bi bi-gear navicon"></i> Skills</a>
+          </li>
+          <li>
+            <a href="index.html#resume"><i class="bi bi-briefcase navicon"></i> Career Timeline</a>
+          </li>
+          <li>
+            <a href="index.html#projects"><i class="bi bi-kanban navicon"></i> Projects</a>
+          </li>
+          <li>
+            <a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Dark mode toggle -->
+      <div id="theme-toggle-wrapper" class="theme-toggle-wrapper" aria-hidden="false">
+        <div class="theme-toggle-inner">
+          <span class="theme-toggle-label">Dark mode</span>
+          <button id="theme-toggle" class="theme-switch" role="switch" aria-checked="false" aria-label="Toggle dark mode">
+            <span class="switch-track" aria-hidden="true">
+              <span class="switch-thumb" aria-hidden="true"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-title dark-background">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+          <h1 class="mb-2 mb-lg-0 d-flex align-items-center gap-2">
+            <a href="index.html#projects" class="back-btn" title="Back to Projects"><i class="bi bi-arrow-left"></i></a>
+            Shortest Path Finding Visualizer - A* Algorithm
+          </h1>
+
+          <nav class="breadcrumbs">
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li class="current">Project Details</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+      <!-- End Page Title -->
+
+      <!-- Portfolio Details Section -->
+      <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+                <h3>Project information</h3>
+                <ul class="info-aligned">
+                  <li><span class="label">Category</span><span class="value">Algorithms and Visualization</span></li>
+                  <li><span class="label">Client</span><span class="value">Personal Project</span></li>
+                  <li><span class="label">Project date</span><span class="value">27 August, 2022</span></li>
+                  <li>
+                    <span class="label">Project URL</span
+                    ><span class="value"><a href="https://github.com/iamayuu/Shortest-Path-Finding-Algorithm" target="_blank">Github Link</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-lg-12">
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <h2>Project Overview</h2>
+                <p>
+                  This project is an interactive visualizer for the A star pathfinding algorithm. It allows users to place a start point, end point, and obstacles on a
+                  grid, and then observe how A* searches for the shortest path. The tool highlights how the algorithm evaluates neighboring nodes, prioritizes movement,
+                  and reconstructs the optimal path.
+                </p>
+                <p>The purpose of the visualizer is to make A star easier to understand by showing every step of the algorithm in real time.</p>
+              </div>
+              <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                <div class="features-tech-grid">
+                  <div class="features-list">
+                    <h2>Key Features</h2>
+                    <ul>
+                      <li>Interactive grid with clickable start, end, and obstacle nodes.</li>
+                      <li>Real-time visualization of node expansions.</li>
+                      <li>Instant restart and configuration resets.</li>
+                      <li>Clean Python implementation using Pygame.</li>
+                    </ul>
+                  </div>
+
+                  <div class="tech-stack" aria-label="Tech stack">
+                    <h2>Tech Stack</h2>
+                    <div class="tech-chips">
+                      <span class="tech-chip">Python</span>
+                      <span class="tech-chip">Pygame</span>
+                      <span class="tech-chip">A* Search Algorithm</span>
+                      <span class="tech-chip">Heuristic Optimization</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Details Section -->
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container">
+        <div class="credits">
+          Designed by
+          <a href="https://github.com/iamayuu?tab=repositories" target="_blank" rel="noopener noreferrer">Ayush Raghuwanshi</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/php-email-form/validate.js"></script>
+    <script src="assets/libs/aos/aos.js"></script>
+    <script src="assets/libs/typed.js/typed.umd.js"></script>
+    <script src="assets/libs/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/libs/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/libs/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/libs/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/libs/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
