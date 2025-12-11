@@ -1915,12 +1915,7 @@ section,
 }
 
 :root[data-theme="dark"] {
-  --background-color: #040b14;
-  --default-color: #dfe9f2;
   --heading-color: #ffffff;
-  --surface-color: #0f1720;
-  --accent-color: #149ddd;
-  --contrast-color: #ffffff;
 }
 
 html[data-theme="dark"] .light-background {
