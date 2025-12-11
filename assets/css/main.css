@@ -1887,21 +1887,6 @@ section,
   position: relative;
 }
 
-:root[data-theme="dark"] {
-  --background-color: #040b14;
-  --default-color: #e6eef7;
-  --heading-color: #ffffff;
-  --accent-color: #149ddd;
-  --surface-color: #0f1720;
-  --contrast-color: #ffffff;
-  --nav-color: #9aa0a8;
-  --nav-hover-color: #ffffff;
-  --nav-mobile-background-color: #040b14;
-  --nav-dropdown-background-color: #040b14;
-  --nav-dropdown-color: #9aa0a8;
-  --nav-dropdown-hover-color: #ffffff;
-}
-
 .theme-toggle {
   display: inline-flex;
   align-items: center;
