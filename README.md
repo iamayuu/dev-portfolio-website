@@ -1,4 +1,7 @@
 # 🚀 # Ayush Raghuwanshi Developer Portfolio Website
+**Author:** Ayush Raghuwanshi  
+Software Engineer specializing in RPA, Python, and AI ML development.  
+Portfolio: https://ayushraghuwanshi.netlify.app
 
 **A modern, responsive developer portfolio showcasing projects, skills, case studies and achievements.**  
 Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, GLightbox, Swiper, Isotope and a persistent dark mode toggle.  
@@ -95,3 +98,10 @@ python3 -m http.server 8000
 
 - Dark mode toggle misaligns when you zoom in website, It needs manual refresh to correct it's position
   <img src="https://img.shields.io/badge/status-in%20progress-blue" alt="in progress" />
+
+---
+
+Created and maintained by **Ayush Raghuwanshi**  
+GitHub: https://github.com/iamayuu  
+LinkedIn: https://linkedin.com/in/ayush-raghuwanshi1/
+
