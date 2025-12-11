@@ -1887,33 +1887,6 @@ section,
   position: relative;
 }
 
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 12px;
-  border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  background: rgba(255, 255, 255, 0.05);
-  color: var(--default-color);
-  cursor: pointer;
-  font-size: 18px;
-  transition: background 0.2s ease, transform 0.15s ease;
-}
-
-.theme-toggle:hover {
-  background: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
-}
-
-.theme-toggle .bi {
-  font-size: 20px;
-}
-
-* {
-  transition: color 200ms ease, background-color 200ms ease, border-color 200ms ease;
-}
-
 :root[data-theme="dark"] {
   --heading-color: #ffffff;
 }
