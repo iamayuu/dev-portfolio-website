@@ -1187,9 +1187,6 @@ section,
   color: var(--accent-color);
 }
 
-.starter-section {
-}
-
 .skills .progress {
   position: relative;
   background: transparent !important;
