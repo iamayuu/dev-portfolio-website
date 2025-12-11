@@ -17,7 +17,7 @@ Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, G
 ---
 <p align="center">
   <a href="https://ayushraghuwanshi.netlify.app" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Live%20Site-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Live Site">
+    <img src="https://img.shields.io/badge/View%20Live%20Demo-black?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Live Site">
   </a>
 </p>
 
@@ -34,11 +34,12 @@ Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, G
 - Dark and light theme with persistent user preference  
 - Responsive layout, optimized for mobile and desktop  
 - Smooth scroll animations via AOS  
-- Project filtering and masonry layout via Isotope  
+- Project filtering and masonry layout via Isotope
+- Skills section with gradient progress bar with animations on reload  
 - Certificate previews with GLightbox  
 - Testimonials carousel using Swiper  
 - Animated counters with PureCounter  
-- Contact form with client side validation helper  
+- Contact form with client side validation  
 - Dedicated project case study pages
 
 ---
@@ -88,3 +89,9 @@ python3 -m http.server 8000
   - Modify HTML in project pages
   - Update CSS in assets/css/main.css
   - Update scripts in assets/js/main.js
+
+---
+## Known Issues ⚠️
+
+- Dark mode toggle misaligns when you zoom in website, It needs manual refresh to correct it's position
+  <img src="https://img.shields.io/badge/status-in%20progress-blue" alt="in progress" />
