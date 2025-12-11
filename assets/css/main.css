@@ -2371,20 +2371,6 @@ html[data-theme="dark"] .theme-switch .switch-thumb {
   border-radius: 999px;
 }
 
-@media (max-width: 767px) {
-  .theme-toggle-label {
-    font-size: 14px;
-  }
-  .theme-switch .switch-track {
-    width: 52px;
-    height: 28px;
-  }
-  .theme-switch .switch-thumb {
-    width: 22px;
-    height: 22px;
-  }
-}
-
 .header {
   position: fixed;
 }
@@ -2432,29 +2418,6 @@ html[data-theme="dark"] .theme-switch .switch-thumb {
   border: 1px solid rgba(255, 255, 255, 0.72);
   position: relative;
   transition: all 180ms linear;
-}
-
-.theme-switch .switch-thumb {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  top: 4px;
-  left: 4px;
-  position: absolute;
-  background: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
-  transition: transform 180ms cubic-bezier(0.2, 0.8, 0.25, 1), background 150ms;
-  transform: translateX(0);
-}
-
-html[data-theme="dark"] .theme-switch .switch-thumb {
-  transform: translateX(24px);
-  background: #149ddd;
-}
-
-html[data-theme="dark"] .theme-switch .switch-track,
-html[data-theme="dark"] .theme-switch .switch-track {
-  border-color: rgba(255, 255, 255, 0.72) !important;
 }
 
 @media (max-width: 767px) {
