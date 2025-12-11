@@ -1,14 +1,14 @@
 # 🚀 Dev Portfolio Website
 
 **A modern, responsive developer portfolio showcasing projects, skills, case studies and achievements.**  
-Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, GLightbox, Swiper, Isotope and a persistent dark mode toggle.
+Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, GLightbox, Swiper, Isotope and a persistent dark mode toggle.  
 
 [![Website Status](https://img.shields.io/badge/status-ready-brightgreen.svg)](https://github.com/iamayuu/dev-portfolio-website)
 ![Deployment](https://img.shields.io/badge/deploy-netlify-blue)
 ![Build](https://img.shields.io/badge/build-static%20site-orange)
 ![UI Quality](https://img.shields.io/badge/UI-polished-purple)
 ![Tech Stack](https://img.shields.io/badge/tech-HTML%20CSS%20JS-yellow)  
-
+---
 ![Maintenance](https://img.shields.io/badge/maintained-yes-success)
 ![Last Commit](https://img.shields.io/github/last-commit/iamayuu/dev-portfolio-website)
 ![Stars](https://img.shields.io/github/stars/iamayuu/dev-portfolio-website?style=flat)
