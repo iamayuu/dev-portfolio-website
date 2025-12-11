@@ -2179,23 +2179,6 @@ html[data-theme="dark"] body .portfolio-details .portfolio-info {
   pointer-events: auto;
 }
 
-.theme-toggle-inner {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  padding: 6px 10px;
-  border-radius: 12px;
-}
-
-.theme-toggle-label {
-  font-size: 16px;
-  line-height: 1;
-  color: var(--nav-color, var(--default-color));
-  font-weight: 600;
-  white-space: nowrap;
-  user-select: none;
-}
-
 .left-panel .theme-toggle-wrapper,
 .sidebar .theme-toggle-wrapper,
 .profile .theme-toggle-wrapper,
