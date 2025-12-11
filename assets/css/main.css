@@ -2171,17 +2171,6 @@ html[data-theme="dark"] body .portfolio-details .portfolio-info {
   border-radius: 999px;
 }
 
-@media (max-width: 767px) {
-  .theme-switch .switch-track {
-    width: 52px;
-    height: 28px;
-  }
-  .theme-switch .switch-thumb {
-    width: 22px;
-    height: 22px;
-  }
-}
-
 .theme-toggle-wrapper {
   width: 100%;
   display: flex;
