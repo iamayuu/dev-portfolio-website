@@ -2337,10 +2337,6 @@ html[data-theme="dark"] .theme-switch .switch-thumb {
   border-radius: 999px;
 }
 
-.header {
-  position: fixed;
-}
-
 .header #theme-toggle-wrapper,
 .header .theme-toggle-wrapper {
   position: absolute !important;
