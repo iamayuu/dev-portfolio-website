@@ -15,6 +15,13 @@ Built with clean, modular HTML, CSS and vanilla JavaScript. Enhanced with AOS, G
 ![Issues](https://img.shields.io/github/issues/iamayuu/dev-portfolio-website)
 
 ---
+<p align="center">
+  <a href="https://ayushraghuwanshi.netlify.app" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Live%20Site-000000?style=for-the-badge&logo=netlify&logoColor=00C7B7" alt="Live Site">
+  </a>
+</p>
+
+---
 
 ## 🔖 Repository
 **Name:** `dev-portfolio-website`  
