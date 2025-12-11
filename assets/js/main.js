@@ -267,3 +267,73 @@
     }
   });
 })();
+(function () {
+  const header = document.getElementById("header");
+  const nav = document.getElementById("navmenu");
+  const toggle = document.getElementById("theme-toggle-wrapper") || document.querySelector(".theme-toggle-wrapper");
+  if (!header || !nav || !toggle) return;
+
+  const GAP = 12;
+
+  function applyPosition(px) {
+    toggle.classList.remove("fallback-fixed");
+    toggle.style.position = "absolute";
+    toggle.style.top = px + "px";
+    toggle.style.left = "18px";
+    toggle.style.right = "18px";
+    toggle.style.bottom = "auto";
+  }
+
+  function fallback() {
+    toggle.classList.add("fallback-fixed");
+    toggle.style.removeProperty("top");
+    toggle.style.removeProperty("left");
+    toggle.style.removeProperty("right");
+    toggle.style.removeProperty("position");
+  }
+
+  function update() {
+    const isSmall = window.matchMedia("(max-width: 767px)").matches;
+    if (isSmall) {
+      fallback();
+      return;
+    }
+
+    const headerRect = header.getBoundingClientRect();
+    const navRect = nav.getBoundingClientRect();
+
+    // nav top relative to header
+    const navTop = navRect.top - headerRect.top;
+
+    const scrollable = nav.scrollHeight > nav.clientHeight;
+
+    if (!scrollable) {
+      // whole nav is visible
+      const px = navTop + nav.offsetHeight + GAP;
+      applyPosition(px);
+      return;
+    }
+
+    // nav is scrollable: place below visible bottom
+    const visibleBottom = navTop + nav.clientHeight;
+    const px = visibleBottom + GAP;
+    applyPosition(px);
+  }
+
+  nav.addEventListener("scroll", () => {
+    if (nav._busy) return;
+    nav._busy = true;
+    requestAnimationFrame(() => {
+      update();
+      nav._busy = false;
+    });
+  });
+
+  window.addEventListener("resize", update);
+  window.addEventListener("load", update);
+
+  const obs = new MutationObserver(() => setTimeout(update, 50));
+  obs.observe(nav, { childList: true, subtree: true });
+
+  update();
+})();
