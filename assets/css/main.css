@@ -2267,10 +2267,6 @@ html[data-theme="dark"] .theme-switch .switch-thumb {
   padding: 6px 2px;
 }
 
-.header {
-  padding-bottom: 120px;
-}
-
 .theme-toggle-inner {
   display: inline-flex;
   align-items: center;
